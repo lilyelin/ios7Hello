@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Hello_WorldViewController : UIViewController
+@interface Hello_WorldViewController : UIViewController <UITextFieldDelegate>
+
+@property (copy, nonatomic) NSString *userName;
 
 @end
